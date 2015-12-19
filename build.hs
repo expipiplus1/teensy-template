@@ -17,7 +17,7 @@ main =
            , "cores/teensy3//*.cpp"
            ]
          defines =
-           [ "USB_SERIAL_HID"
+           [ "USB_SERIAL"
            , "F_CPU=96000000"
            , "__MK20DX256__"
            , "LAYOUT_US_ENGLISH"
