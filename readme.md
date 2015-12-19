@@ -22,6 +22,12 @@ Defines and other flags are listed in build.hs too.
 
 `runhaskell build` in this directory will build the project. You'll need the shake package installed.
 
+The resulting binary is created at `build/run.hex`.
+
+## Contributing
+
+Please feel free to raise an issue if you can't get this to work or open a pull request if you have an improvement :)
+
 
 [shake]: https://github.com/ndmitchell/shake
 [shake hackage]: https://hackage.haskell.org/package/shake
