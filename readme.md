@@ -6,13 +6,13 @@ A template for a project compiling for the teensy 3.1 board with clang.
 
 ## Prerequisites
 
-A Haskell compiler.
+ - A Haskell compiler.
 
-Clang.
+ - Clang.
 
-[Shake][shake hackage].
+ - [Shake][shake hackage].
 
-[gcc-arm-none-eabi toolchain][gcc-arm-none-eabi] in a directory called
+ - [gcc-arm-none-eabi toolchain][gcc-arm-none-eabi] in a directory called
 gcc-arm-none-eabi. You can see this being explored in the `stdIncludeDirs`
 expression in build.hs. The contents of `gcc-arm-none-eabi/bin` must be on the
 path.
