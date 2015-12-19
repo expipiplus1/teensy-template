@@ -17,6 +17,8 @@ gcc-arm-none-eabi. You can see this being explored in the `stdIncludeDirs`
 expression in build.hs. The contents of `gcc-arm-none-eabi/bin` must be on the
 path.
 
+ - The `cores` library is a git submodule, so you'll need to run `git submodule update --init` after cloning.
+
 ## Usage
 
 All the sources for the project are listed in the `sourceFiles` expression in
