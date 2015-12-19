@@ -24,6 +24,8 @@ Defines and other flags are listed in build.hs too.
 
 The resulting binary is created at `build/run.hex`.
 
+`runhaskell build .clang_complete` will generate a file `.clang_complete` which contains all the compiler options used to compile the C++ source. This is useful for code completion and all that.
+
 ## Contributing
 
 Please feel free to raise an issue if you can't get this to work or open a pull request if you have an improvement :)

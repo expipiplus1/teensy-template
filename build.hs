@@ -67,7 +67,6 @@ main =
                               , "-std=gnu++1y"
                               ]
      --
-     want [".clang_complete"]
      want [buildDir </> "run.hex"]
      --
      phony "clean" $
